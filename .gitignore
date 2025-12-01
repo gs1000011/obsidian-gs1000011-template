@@ -1,7 +1,3 @@
-# OR only to exclude workspace cache
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
 # Exclude Untitled Notes
 Untitled*
 無題のファイル*
@@ -15,6 +11,3 @@ null*
 # Exclude Obsidian plugin settings and caches
 # Various Complements
 .obsidian/plugins/various-complements/histories.json
-# Smart Connections
-.smart-env/*
-!.smart-env/smart_env.json

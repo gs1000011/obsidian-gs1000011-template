@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "e5835d854b1772e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "94dcc39aa895a200",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b3383aa09de6538",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
+          },
+          {
+            "id": "d9413b6909f68f41",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "pinned": true,
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
+            "id": "316a8945bd0175a1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "pinned": true,
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42a1bad68a74dc5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "31fb12c3485cfefc",
+        "type": "tabs",
+        "dimension": 41.717791411042946,
+        "children": [
+          {
+            "id": "194ebcc03fcc8130",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "872274c0a4d6d663",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "5505148f42bfd97c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          }
+        ]
+      },
+      {
+        "id": "693fcee19813b369",
+        "type": "tabs",
+        "dimension": 58.282208588957054,
+        "children": [
+          {
+            "id": "262008fc01f4cbf2",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "",
+                "options": {
+                  "collapse-filter": true,
+                  "search": " path:02_Event OR path:03_Data  ",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "[\"label\":Topic]",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12358985
+                      }
+                    },
+                    {
+                      "query": "[\"label\":Event]",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3643184
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.54965397923875,
+                  "collapse-forces": true,
+                  "centerStrength": 0.849264705882353,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 190,
+                  "scale": 0.47598186641384943,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": ""
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 715.5
+  }
+}
