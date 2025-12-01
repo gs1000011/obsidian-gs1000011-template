@@ -1,0 +1,46 @@
+filters:
+  and:
+    - or:
+        - file.folder.startsWith("02_Event")
+        - file.folder.startsWith("03_Data")
+    - and:
+        - file.ext == "md"
+views:
+  - type: table
+    name: Editing
+    filters:
+      and:
+        - reference != true
+    order:
+      - file.name
+      - created_at
+      - label
+      - tags
+    sort:
+      - property: created_at
+        direction: DESC
+    columnSize:
+      file.name: 243
+      note.created_at: 230
+      note.label: 209
+      note.tags: 289
+    rowHeight: medium
+  - type: table
+    name: Reference
+    filters:
+      and:
+        - reference == true
+    order:
+      - file.name
+      - created_at
+      - label
+      - tags
+    sort:
+      - property: created_at
+        direction: DESC
+    columnSize:
+      file.name: 243
+      note.created_at: 230
+      note.label: 209
+      note.tags: 289
+    rowHeight: medium

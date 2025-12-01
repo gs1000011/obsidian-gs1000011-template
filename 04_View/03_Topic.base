@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.folder.startsWith("03_Data")
+    - label.containsAny("Topic")
+formulas:
+  icon: if(eye_catch, eye_catch, image('noimage.png'))
+properties:
+  formula.icon:
+    displayName: eye catch
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - tags
+      - created_at
+    sort:
+      - property: created_at
+        direction: DESC
+    image: formula.icon
+    cardSize: 200
+    imageAspectRatio: 1

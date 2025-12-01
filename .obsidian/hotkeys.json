@@ -1,0 +1,18 @@
+{
+  "templater-obsidian:create-00_config/01_template/03_topic.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "float-search:search-obsidian-globally": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ]
+}

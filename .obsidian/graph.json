@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": " path:02_Event OR path:03_Data ",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"label\":Topic]",
+      "color": {
+        "a": 1,
+        "rgb": 12358985
+      }
+    },
+    {
+      "query": "[\"label\":Event]",
+      "color": {
+        "a": 1,
+        "rgb": 3644976
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.849751297577855,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.8147741249191627,
+  "close": true
+}

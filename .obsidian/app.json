@@ -1,0 +1,10 @@
+{
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "attachmentFolderPath": "00_config/03_asset",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "00_config/",
+    "04_View/"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "format": "YYYY-MM-DD",
+  "folder": "01_Log",
+  "template": "00_config/01_template/01_log"
+}
